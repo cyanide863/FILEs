@@ -1,0 +1,165 @@
+crash_1708016763335.txt
+
+Mindustry has crashed. How unfortunate.
+Version: release build 146
+OS: Linux xnull (armv8l)
+Android API level: 29
+Java Version: 0
+Runtime Available Memory: 256mb
+Cores: 8
+Mods: cliff:1.1.0, time-control:0.2
+
+> NullPointer: 'Attempt to read from field 'arc.graphics.Color arc.graphics.g2d.GlyphLayout$GlyphRun.color' on a null object reference'
+GlyphLayout.setText: 17
+FontCache.addText: 6
+FontCache.addText: 2
+Font.draw: 15
+Font.draw: 13
+MenuFragment.lambda$build$14: 12
+MenuFragment.$r8$lambda$DLgm2V4-uAZ8bLDJFyguY_XXGOY: 0
+HudFragment$$ExternalSyntheticLambda1.draw: 10
+Group$1.draw: 10
+Group.drawChildren: 57
+Group.draw: 2
+WidgetGroup.draw: 2
+Group.drawChildren: 57
+Group.draw: 2
+WidgetGroup.draw: 2
+Group.drawChildren: 57
+Group.draw: 2
+Scene.draw: 5
+UI.update: 4
+ApplicationCore.update: 2
+ClientLauncher.update: 20
+AndroidGraphics.onDrawFrame: 22
+GLSurfaceView$GLThread.guardedRun: 1573
+GLSurfaceView$GLThread.run: 1272
+
+crash_1708192964274.txt
+
+Mindustry has crashed. How unfortunate.
+Version: release build 146
+OS: Linux xnull (armv8l)
+Android API level: 29
+Java Version: 0
+Runtime Available Memory: 256mb
+Cores: 8
+Mods: advance-lighting:v1.5.4.0, cliff:1.1.0, prog-mats:27.3, time-control:0.2
+
+> OutOfMemoryError: 'OutOfMemoryError thrown while trying to throw OutOfMemoryError; no stack trace available'
+nt 268435456, growth limit 268435456'
+ViewRootImpl$ViewPostImeInputStage.processPointerEvent: 6543
+ViewRootImpl$ViewPostImeInputStage.onProcess: 6326
+ViewRootImpl$InputStage.deliver: 5764
+ViewRootImpl$InputStage.onDeliverToNext: 5817
+ViewRootImpl$InputStage.forward: 5783
+ViewRootImpl$AsyncInputStage.forward: 5939
+ViewRootImpl$InputStage.apply: 5791
+ViewRootImpl$AsyncInputStage.apply: 5996
+ViewRootImpl$InputStage.deliver: 5764
+ViewRootImpl$InputStage.onDeliverToNext: 5817
+ViewRootImpl$InputStage.forward: 5783
+ViewRootImpl$InputStage.apply: 5791
+ViewRootImpl$InputStage.deliver: 5764
+ViewRootImpl.deliverInputEvent: 8985
+ViewRootImpl.doProcessInputEvents: 8846
+ViewRootImpl.enqueueInputEvent: 8799
+ViewRootImpl$WindowInputEventReceiver.onInputEvent: 9121
+InputEventReceiver.dispatchInputEvent: 194
+MessageQueue.nativePollOnce: -2
+MessageQueue.next: 336
+Looper.loop: 197
+ActivityThread.main: 8107
+RuntimeInit$MethodAndArgsCaller.run: 496
+ZygoteInit.main: 1100
+
+crash_1712933597525.txt
+
+Mindustry has crashed. How unfortunate.
+Version: release build 146
+OS: Linux xnull (armv8l)
+Android API level: 29
+Java Version: 0
+Runtime Available Memory: 256mb
+Cores: 8
+Mods: diamond-ore:[#9cb6f4]4.0.0[], time-control:0.2
+
+> ArcRuntime: 'java.lang.IllegalArgumentException: No constructor set up for unit 'diamond-ore-siren'. Make sure you assign a valid value to `constructor`, e.g. `constructor = UnitEntity::new`'
+AssetManager.handleTaskError: 12
+AssetManager.update: 6
+AssetManager.update: 9
+ClientLauncher.update: 7
+AndroidGraphics.onDrawFrame: 22
+GLSurfaceView$GLThread.guardedRun: 1573
+GLSurfaceView$GLThread.run: 1272
+> IllegalArgument: 'No constructor set up for unit 'diamond-ore-siren'. Make sure you assign a valid value to `constructor`, e.g. `constructor = UnitEntity::new`'
+UnitType.createIcons: 41
+Mods.lambda$loadSync$11: 5
+Mods.$r8$lambda$AIYpICNDtkf4HGZJF8MZjZoP48o: 0
+Mods$$ExternalSyntheticLambda5.get: 10
+Seq.each: 4
+Mods.loadSync: 31
+AssetManager$2.loadSync: 1
+AssetLoadingTask.handleAsyncLoader: 9
+AssetLoadingTask.update: 4
+AssetManager.updateTask: 2
+AssetManager.update: 5
+AssetManager.update: 9
+ClientLauncher.update: 7
+AndroidGraphics.onDrawFrame: 22
+GLSurfaceView$GLThread.guardedRun: 1573
+GLSurfaceView$GLThread.run: 1272
+
+crash_1713206914021.txt
+
+Mindustry has crashed. How unfortunate.
+Version: release build 146
+OS: Linux xnull (armv8l)
+Android API level: 29
+Java Version: 0
+Runtime Available Memory: 256mb
+Cores: 8
+Mods: advance-lighting:v1.5.4.0, invincible-cheat-mod-v7:3.1.1, sapphirium:16.0, time-control:0.2
+
+> Evaluator: 'Can't find method mindustry.graphics.Drawf.light(mindustry.game.Team,number,number,number,arc.graphics.Color,number). (adjustable-overdrive-projector#114)'
+DefaultErrorReporter.runtimeError: 3
+Context.reportRuntimeError: 3
+Context.reportRuntimeError: 6
+Context.reportRuntimeError1: 2
+NativeJavaMethod.call: 40
+OptRuntime.callN: 0
+adjustable_overdrive_projector_20._c_anonymous_28: 114
+adjustable_overdrive_projector_20.call: 212
+ContextFactory.doTopCall: 1
+ScriptRuntime.doTopCall: 7
+adjustable_overdrive_projector_20.call: 18
+Context.lambda$call$0: 0
+Context.$r8$lambda$U31uu1bHcE5ti_MlmtxLjUKGgyg: 0
+Context$$ExternalSyntheticLambda0.run: 16
+Context.call: 4
+Context.call: 2
+JavaAdapter.callMethod: 3
+adapter125.drawLight: 21
+BlockRenderer.drawBlocks: 37
+Renderer.draw: 45
+Renderer.update: 45
+ApplicationCore.update: 2
+ClientLauncher.update: 20
+AndroidGraphics.onDrawFrame: 22
+GLSurfaceView$GLThread.guardedRun: 1573
+GLSurfaceView$GLThread.run: 1272
+
+
+last log:
+[I] [GL] Version: GLES 3.2.0 / Qualcomm / Adreno (TM) 506
+[I] [GL] Max texture size: 16384
+[I] [GL] Using OpenGL 2 context.
+[I] [JAVA] Version: 0
+[I] [ANDROID] API level: 29
+[I] [RAM] Available: 256.0 MB
+[I] [Mindustry] Version: 146
+[I] Total time to load: 9291ms
+[I] Fetching community servers at https://raw.githubusercontent.com/Anuken/Mindustry/master/servers_v7.json
+[I] Fetched 74 community servers.
+[I] [AndroidGraphics] [pause]
+[I] [AndroidGraphics] [resume]
